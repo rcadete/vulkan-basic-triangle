@@ -65,7 +65,7 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
     window = glfwCreateWindow(640, 480, "Demo window", NULL, NULL);
     if (!window) {
-        // window or OpenGL context creatin failed
+        // window or OpenGL context creation failed
         glfwTerminate();
         exit(EXIT_FAILURE);
     }
